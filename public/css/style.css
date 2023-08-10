@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 15px;
+}
+#lp_form {
+  background-color: #ffffff;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#lp_form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#lp_form input[type="text"],
+#lp_form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#lp_form input[type="submit"] {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#lp_form input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+#errorField {
+  color: red;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.user-view {
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+.user-view h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.user-view p {
+  color: #555;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.user-view p b {
+  color: #222;
+  font-weight: bold;
+}
+
+.user-view ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.user-view li {
+  background-color: #e9e9e9;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.user-view li:hover {
+  background-color: #d9d9d9;
+}
+
+.spinner {
+  border: 8px solid rgba(255, 255, 255, 0.3); /* Light grey */
+  border-radius: 50%;
+  border-top: 8px solid #333; /* Dark grey */
+  width: 25px;
+  height: 25px;
+  animation: spin 1s linear infinite;
+}
+
+.json_input {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.json_input label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.json_input input[type="file"] {
+  margin-bottom: 15px;
+}
+
+button#sendEmailBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button#sendEmailBtn:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+button#sendEmailBtn:hover {
+  background-color: #45a049;
+}
+
+#ImportLogArea {
+  background-color: #000;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  width: 100%;
+  height: 300px;
+  font-size: 12px;
+  overflow: auto;
+  border: 2px solid #555;
+  white-space: pre-line;
+  padding: 5px;
+  line-height: 1.5;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

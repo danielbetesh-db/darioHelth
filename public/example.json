@@ -1,0 +1,9 @@
+[
+  {
+    "userName": "YEcTKTlp",
+    "userEmail": "youtr-email@example.com",
+    "userPhone": "555-629-7017",
+    "userId": 500000000,
+    "devices": [{ "deviceId": 7 }, { "deviceId": 8 }]
+  }
+]

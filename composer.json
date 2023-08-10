@@ -1,0 +1,17 @@
+{
+    "name": "danielb/dario",
+    "autoload": {
+        "psr-4": {
+            "Danielb\\Dario\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "danielbetesh-db",
+            "email": "daniel.betesh@gmail.com"
+        }
+    ],
+    "require": {
+        "salsify/json-streaming-parser": "^8.3"
+    }
+}
