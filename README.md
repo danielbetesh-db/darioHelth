@@ -16,9 +16,9 @@ Developed a robust system to streamline the registration and verification proces
    - Utilize `dev-scripts/init-seed.php` to initialize and restart the database with basic configurations.
 
 3. **Install required Composer libraries**:
-
-composer install
-
+   ```
+   composer install
+   ```
 4. **Mock Data Generation & Import**:
 
    - To generate an import file with mock user data, run `dev-scripts/generate-import-file`. By default, it will generate data for 100 users, but you can specify a different number as an argument, e.g., `dev-scripts/generate-import-file 500` to generate data for 500 users.
