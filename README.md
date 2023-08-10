@@ -17,7 +17,7 @@ Developed a robust system to streamline the registration and verification proces
 
 3. **Install required Composer libraries**:
 
-   - composer install
+composer install
 
 4. **Mock Data Generation & Import**:
 
